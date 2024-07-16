@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-image: url(../Images/bg2.webp);
+
+}
+
+.text {
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+}
+.t-btn{
+    background-color: orangered;
+    border: none;
+}
+.t-btn{
+    background-color: orangered;
+    border: none;
+}
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in {
+    animation: slideInFromTop 1s ease-out;
+  }
